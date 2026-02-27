@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['aluminum_can', 'arduino_nano', 'banana_peel', 'breadboard', 'face_mask', 'metal_bottle', 'paper_bag', 'phone', 'plastic_bag', 'plastic_bottle', 'resistor', 'snack_wrapper', 'styro_foam', 'voltage_regulator', 'white_paper']
+
+roboflow:
+  workspace: grumpy
+  project: items-id5to
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/grumpy/items-id5to/dataset/11
